@@ -95,10 +95,10 @@
         "collapsible-row-3": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Care Instructions",
+            "heading": "Care Guide",
             "icon": "heart",
             "content": "",
-            "page": ""
+            "page": "jewelry-care-guide"
           }
         }
       },
