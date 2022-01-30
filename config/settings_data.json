@@ -1,7 +1,111 @@
 {
-  "current": "Default",
+  "current": {
+    "colors_solid_button_labels": "#fafafa",
+    "colors_accent_1": "#f37b7d",
+    "colors_accent_2": "#334FB4",
+    "colors_text": "#121212",
+    "colors_outline_button_labels": "#121212",
+    "colors_background_1": "#FFFFFF",
+    "colors_background_2": "#F3F3F3",
+    "type_header_font": "assistant_n4",
+    "type_body_font": "assistant_n4",
+    "sale_badge_color_scheme": "accent-1",
+    "social_facebook_link": "https:\/\/www.facebook.com\/DivineBlingCa",
+    "social_pinterest_link": "https:\/\/pin.it\/4hFOKKD",
+    "social_instagram_link": "https:\/\/www.instagram.com\/divinebling.ca",
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "blocks": {
+          "announcement-bar-0": {
+            "type": "announcement",
+            "settings": {
+              "text": "Welcome to our store",
+              "color_scheme": "background-1",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "announcement-bar-0"
+        ],
+        "settings": {
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/DivineBling.png",
+          "logo_width": 90,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "About",
+              "menu": "footer"
+            }
+          },
+          "f21ca479-a4d1-4364-b7b3-e3dc3c6b2981": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "f21ca479-a4d1-4364-b7b3-e3dc3c6b2981"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": true,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
+      },
+      "main-password-header": {
+        "type": "main-password-header",
+        "settings": {
+          "logo": "shopify:\/\/shop_images\/DivineBling.png",
+          "logo_max_width": 100,
+          "color_scheme": "background-1"
+        }
+      },
+      "main-password-footer": {
+        "type": "main-password-footer",
+        "settings": {
+          "color_scheme": "background-1"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
   "presets": {
     "Default": {
+      "colors_solid_button_labels": "#FFFFFF",
+      "colors_accent_1": "#121212",
+      "colors_accent_2": "#334FB4",
+      "colors_text": "#121212",
+      "colors_outline_button_labels": "#121212",
+      "colors_background_1": "#FFFFFF",
+      "colors_background_2": "#F3F3F3",
+      "type_header_font": "assistant_n4",
+      "type_body_font": "assistant_n4",
       "sections": {
         "announcement-bar": {
           "type": "announcement-bar",
@@ -15,50 +119,44 @@
           },
           "block_order": [
             "announcement-bar-0"
-          ]
-        },
-        "header": {
-          "type": "header",
+          ],
           "settings": {
-            "logo_width": 90
           }
-        },
+        }
+      }
+    },
+    "Craft": {
+      "colors_solid_button_labels": "#EFECEC",
+      "colors_accent_1": "#2A332F",
+      "colors_accent_2": "#476154",
+      "colors_text": "#1C1A1A",
+      "colors_outline_button_labels": "#7B8382",
+      "colors_background_1": "#EFECEC",
+      "colors_background_2": "#C1BCAE",
+      "type_header_font": "americana_n4",
+      "type_body_font": "quattrocento_sans_n4",
+      "sections": {
         "footer": {
           "type": "footer",
           "blocks": {
-            "footer-0": {
-              "type": "link_list"
-            },
-            "footer-1": {
+            "menu": {
               "type": "link_list",
               "settings": {
-                "heading": "Info"
               }
             },
-            "footer-2": {
+            "text": {
               "type": "text",
               "settings": {
-                "heading": "Our mission"
               }
             }
           },
           "block_order": [
-            "footer-0",
-            "footer-1",
-            "footer-2"
+            "menu",
+            "text"
           ],
           "settings": {
-            "show_social": true,
-            "enable_country_selector": false,
-            "enable_language_selector": false,
-            "margin_top": 48
+            "color_scheme": "accent-1"
           }
-        },
-        "main-password-header": {
-          "type": "main-password-header"
-        },
-        "main-password-footer": {
-          "type": "main-password-footer"
         }
       }
     }
