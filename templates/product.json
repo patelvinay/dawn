@@ -66,11 +66,6 @@
             "custom_liquid": "<p> <img src=\"https:\/\/image.flaticon.com\/icons\/png\/512\/1670\/1670915.png\" style=\"height:25px;float:left;margin-right:10px;padding-bottom: 4px;\"\/>\nGet it between <strong><span id=\"fromDate\"><\/span> - <span id=\"toDate\"><\/span><\/strong><\/p>\n{{ '\/\/cdnjs.cloudflare.com\/ajax\/libs\/datejs\/1.0\/date.min.js' | script_tag }}\n<script>\nvar fromDate = Date.today().addDays(19);\nif (fromDate.is().saturday() || fromDate.is().sunday()) {\nfromDate = fromDate.next().monday();\n}\nvar toDate = Date.today().addDays(25);\nif (toDate.is().saturday() || toDate.is().sunday()) {\ntoDate = toDate.next().monday();\n}\ndocument.getElementById('fromDate').innerHTML = fromDate.toString('dddd MMMM dS');\ndocument.getElementById('toDate').innerHTML = toDate.toString('dddd MMMM dS');\n<\/script>"
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -78,6 +73,11 @@
             "icon": "leather",
             "content": "",
             "page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "collapsible-row-1": {
@@ -119,8 +119,8 @@
         "quantity_selector",
         "buy_buttons",
         "54c81912-7984-4ccb-abfd-5cd7f90e7fcb",
-        "description",
         "collapsible-row-0",
+        "description",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3"
@@ -136,39 +136,18 @@
         "padding_bottom": 12
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "image-with-text-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "image-with-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "image-with-text-0",
-        "image-with-text-1"
-      ],
+    "product-recommendations": {
+      "type": "product-recommendations",
       "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "left",
+        "heading": "You may also like",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 28
       }
     },
     "multicolumn": {
@@ -177,16 +156,16 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Free Shipping",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "column",
+            "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column-1": {
+        "00c80d73-f56e-4141-858b-b899c23c8561": {
           "type": "column",
           "settings": {
-            "title": "Hassle-Free Exchanges",
+            "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -195,12 +174,13 @@
       },
       "block_order": [
         "column-0",
-        "column-1"
+        "00c80d73-f56e-4141-858b-b899c23c8561"
       ],
       "settings": {
-        "title": "",
+        "title": "Product Details",
         "image_width": "full",
         "image_ratio": "adapt",
+        "columns_desktop": 1,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
@@ -209,19 +189,6 @@
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "product-recommendations": {
-      "type": "product-recommendations",
-      "settings": {
-        "heading": "You may also like",
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": true,
-        "padding_top": 36,
-        "padding_bottom": 28
       }
     },
     "16435182264febb2b9": {
@@ -243,9 +210,8 @@
   },
   "order": [
     "main",
-    "image-with-text",
-    "multicolumn",
     "product-recommendations",
+    "multicolumn",
     "16435182264febb2b9"
   ]
 }

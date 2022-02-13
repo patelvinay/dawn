@@ -206,12 +206,73 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1644724525ed52a966": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1644724525df68c949-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "faq 1",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1644724525df68c949-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1644724525df68c949-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1644724525df68c949-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1644724525df68c949-0",
+        "1644724525df68c949-1",
+        "1644724525df68c949-2",
+        "1644724525df68c949-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQ",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
     "multicolumn",
-    "16435182264febb2b9"
+    "16435182264febb2b9",
+    "1644724525ed52a966"
   ]
 }
