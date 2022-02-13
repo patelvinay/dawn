@@ -175,12 +175,67 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16447321342ee07e6f": {
+      "type": "slideshow",
+      "blocks": {
+        "164473213423f025c1-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rose-gold-wedding-ring-with-large-stone.jpg",
+            "heading": "",
+            "heading_size": "small",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "164473213423f025c1-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rose-gold-wedding-ring.jpg",
+            "heading": "",
+            "heading_size": "medium",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "164473213423f025c1-0",
+        "164473213423f025c1-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
     "16435182264febb2b9",
-    "1644725283919938d6"
+    "1644725283919938d6",
+    "16447321342ee07e6f"
   ]
 }
