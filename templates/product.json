@@ -70,6 +70,15 @@
           "type": "description",
           "settings": {
           }
+        },
+        "c6cfa872-64c1-4d9c-aa7c-802237f304ff": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Details",
+            "icon": "question_mark",
+            "content": "<p>Stones Carat Weight: {{ product.metafields.my_fields.stones_carat_weight_center.value }}<\/p><p>Shape: {{ product.metafields.my_fields.cut.value }}<\/p><p>Dimension: {{ product.metafields.my_fields.dimension.value }}<\/p><p>Band Width: {{ product.metafields.my_fields.band_width | metafield_tag }}<\/p><p>Color: {{ product.metafields.my_fields.color.value }}<\/p><p>Clarity: {{ product.metafields.my_fields.clarity.value }}<\/p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -83,7 +92,8 @@
         "quantity_selector",
         "buy_buttons",
         "54c81912-7984-4ccb-abfd-5cd7f90e7fcb",
-        "description"
+        "description",
+        "c6cfa872-64c1-4d9c-aa7c-802237f304ff"
       ],
       "settings": {
         "enable_sticky_info": true,
