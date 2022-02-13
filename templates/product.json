@@ -76,7 +76,7 @@
           "settings": {
             "heading": "Product Details",
             "icon": "question_mark",
-            "content": "<p>Stones Carat Weight: {{ product.metafields.my_fields.stones_carat_weight_center.value }}<\/p><p>Shape: {{ product.metafields.my_fields.cut.value }}<\/p><p>Dimension: {{ product.metafields.my_fields.dimension.value }}<\/p><p>Band Width: {{ product.metafields.my_fields.band_width | metafield_tag }}<\/p><p>Color: {{ product.metafields.my_fields.color.value }}<\/p><p>Clarity: {{ product.metafields.my_fields.clarity.value }}<\/p><p>Stone Type: {{ product.metafields.my_fields.stone_type.value }}<\/p><p><strong>Can be personalised<\/strong><\/p>",
+            "content": "<p>Stones Carat Weight: {{ product.metafields.my_fields.stones_carat_weight_center.value }}<\/p><p>Shape: {{ product.metafields.my_fields.cut.value }}<\/p><p>Dimension: <\/p><p>Band Width: {{ product.metafields.my_fields.band_width | metafield_tag }}<\/p><p>Color: {{ product.metafields.my_fields.color.value }}<\/p><p>Clarity: {{ product.metafields.my_fields.clarity.value }}<\/p><p>Stone Type: {{ product.metafields.my_fields.stone_type.value }}<\/p><p><strong>Can be personalised<\/strong><\/p>",
             "page": ""
           }
         }
