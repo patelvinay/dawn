@@ -77,12 +77,6 @@
       "name": "Simgeler",
       "settings": {
         "accent_icons": {
-          "options__1": {
-            "label": "1. Vurgu"
-          },
-          "options__2": {
-            "label": "2. Vurgu"
-          },
           "options__3": {
             "label": "Dış çizgi düğmesi"
           },
@@ -238,24 +232,6 @@
             "label": "Sağ"
           },
           "label": "Metin hizalaması"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "1. Vurgu"
-          },
-          "options__2": {
-            "label": "2. Vurgu"
-          },
-          "options__3": {
-            "label": "1. Arka plan"
-          },
-          "options__4": {
-            "label": "2. Arka plan"
-          },
-          "options__5": {
-            "label": "Ters"
-          },
-          "label": "Renk şeması"
         }
       }
     },
@@ -351,6 +327,18 @@
         },
         "label": "Renk şeması",
         "has_cards_info": "Kart renk şemasını değiştirmek için tema ayarlarınızı güncelleyin."
+      },
+      "heading_size": {
+        "label": "Başlık boyutu",
+        "options__1": {
+          "label": "Küçük"
+        },
+        "options__2": {
+          "label": "Orta"
+        },
+        "options__3": {
+          "label": "Büyük"
+        }
       }
     },
     "announcement-bar": {
@@ -361,24 +349,6 @@
           "settings": {
             "text": {
               "label": "Metin"
-            },
-            "color_scheme": {
-              "label": "Renk şeması",
-              "options__1": {
-                "label": "1. Arka plan"
-              },
-              "options__2": {
-                "label": "2. Arka plan"
-              },
-              "options__3": {
-                "label": "Ters"
-              },
-              "options__4": {
-                "label": "1. Vurgu"
-              },
-              "options__5": {
-                "label": "2. Vurgu"
-              }
             },
             "link": {
               "label": "Bağlantı"
@@ -500,6 +470,18 @@
         },
         "columns_desktop": {
           "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
         }
       },
       "blocks": {
@@ -612,6 +594,18 @@
         },
         "columns_desktop": {
           "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
         }
       },
       "presets": {
@@ -647,24 +641,6 @@
         }
       },
       "settings": {
-        "color_scheme": {
-          "options__1": {
-            "label": "1. Vurgu"
-          },
-          "options__2": {
-            "label": "2. Vurgu"
-          },
-          "options__3": {
-            "label": "1. Arka plan"
-          },
-          "options__4": {
-            "label": "2. Arka plan"
-          },
-          "options__5": {
-            "label": "Ters"
-          },
-          "label": "Renk şeması"
-        },
         "newsletter_enable": {
           "label": "E-posta kaydını göster"
         },
@@ -744,26 +720,18 @@
           "label": "Yapışkanlı üstbilgiyi etkinleştir",
           "info": "Müşteriler yukarı doğru kaydırırken üstbilgi ekranda görünür."
         },
-        "color_scheme": {
-          "options__1": {
-            "label": "1. Vurgu"
-          },
-          "options__2": {
-            "label": "2. Vurgu"
-          },
-          "options__3": {
-            "label": "1. Arka plan"
-          },
-          "options__4": {
-            "label": "2. Arka plan"
-          },
-          "options__5": {
-            "label": "Ters"
-          },
-          "label": "Renk şeması"
-        },
         "margin_bottom": {
           "label": "Alt kenar boşluğu"
+        },
+        "menu_type_desktop": {
+          "label": "Masaüstü menü türü",
+          "info": "Menü türü, mobil cihazlar için otomatik olarak optimize edilir.",
+          "options__1": {
+            "label": "Açılır menü"
+          },
+          "options__2": {
+            "label": "Mega menü"
+          }
         }
       }
     },
@@ -777,22 +745,6 @@
           "label": "İkinci görsel"
         },
         "color_scheme": {
-          "options__1": {
-            "label": "1. Vurgu"
-          },
-          "options__2": {
-            "label": "2. Vurgu"
-          },
-          "options__3": {
-            "label": "1. Arka plan"
-          },
-          "options__4": {
-            "label": "2. Arka plan"
-          },
-          "options__5": {
-            "label": "Ters"
-          },
-          "label": "Renk şeması",
           "info": "Kapsayıcı gösterildiğinde görünür."
         },
         "stack_images_on_mobile": {
@@ -888,15 +840,6 @@
           "settings": {
             "heading": {
               "label": "Başlık"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Orta"
-              },
-              "options__2": {
-                "label": "Büyük"
-              },
-              "label": "Başlık boyutu"
             }
           }
         },
@@ -967,24 +910,6 @@
             "label": "Büyük"
           },
           "label": "Görsel yüksekliği"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "1. Arka plan"
-          },
-          "options__2": {
-            "label": "2. Arka plan"
-          },
-          "options__3": {
-            "label": "Ters"
-          },
-          "options__4": {
-            "label": "1. Vurgu"
-          },
-          "options__5": {
-            "label": "2. Vurgu"
-          },
-          "label": "Renk şeması"
         },
         "layout": {
           "options__1": {
@@ -1061,18 +986,6 @@
           "settings": {
             "heading": {
               "label": "Başlık"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Küçük"
-              },
-              "options__2": {
-                "label": "Orta"
-              },
-              "options__3": {
-                "label": "Büyük"
-              },
-              "label": "Başlık boyutu"
             }
           }
         },
@@ -1328,6 +1241,18 @@
         },
         "columns_desktop": {
           "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
         }
       }
     },
@@ -1377,27 +1302,7 @@
       "name": "Sayfa"
     },
     "main-password-footer": {
-      "name": "Parola altbilgisi",
-      "settings": {
-        "color_scheme": {
-          "options__1": {
-            "label": "1. Vurgu"
-          },
-          "options__2": {
-            "label": "2. Vurgu"
-          },
-          "options__3": {
-            "label": "1. Arka plan"
-          },
-          "options__4": {
-            "label": "2. Arka plan"
-          },
-          "options__5": {
-            "label": "Ters"
-          },
-          "label": "Renk şeması"
-        }
-      }
+      "name": "Parola altbilgisi"
     },
     "main-password-header": {
       "name": "Parola üstbilgisi",
@@ -1408,24 +1313,6 @@
         "logo_max_width": {
           "label": "Özel logo genişliği",
           "unit": "piksel"
-        },
-        "color_scheme": {
-          "options__1": {
-            "label": "1. Vurgu"
-          },
-          "options__2": {
-            "label": "2. Vurgu"
-          },
-          "options__3": {
-            "label": "1. Arka plan"
-          },
-          "options__4": {
-            "label": "2. Arka plan"
-          },
-          "options__5": {
-            "label": "Ters"
-          },
-          "label": "Renk şeması"
         }
       }
     },
@@ -1772,6 +1659,18 @@
         },
         "columns_desktop": {
           "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
         }
       }
     },
@@ -1837,6 +1736,18 @@
         },
         "columns_desktop": {
           "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
         }
       },
       "blocks": {
@@ -1868,24 +1779,6 @@
     "newsletter": {
       "name": "E-posta kaydı",
       "settings": {
-        "color_scheme": {
-          "label": "Renk şeması",
-          "options__1": {
-            "label": "1. Vurgu"
-          },
-          "options__2": {
-            "label": "2. Vurgu"
-          },
-          "options__3": {
-            "label": "1. Arka plan"
-          },
-          "options__4": {
-            "label": "2. Arka plan"
-          },
-          "options__5": {
-            "label": "Ters"
-          }
-        },
         "full_width": {
           "label": "Bölümü tam genişlikli yap"
         },
@@ -1965,30 +1858,27 @@
         },
         "columns_desktop": {
           "label": "Masaüstündeki sütun sayısı"
+        },
+        "header_mobile": {
+          "content": "Mobil Düzen"
+        },
+        "columns_mobile": {
+          "label": "Mobildeki sütun sayısı",
+          "options__1": {
+            "label": "1 sütun"
+          },
+          "options__2": {
+            "label": "2 sütun"
+          }
+        },
+        "products_to_show": {
+          "label": "Gösterilecek maksimum ürün sayısı"
         }
       }
     },
     "rich-text": {
       "name": "Zengin metin",
       "settings": {
-        "color_scheme": {
-          "options__1": {
-            "label": "1. Vurgu"
-          },
-          "options__2": {
-            "label": "2. Vurgu"
-          },
-          "options__3": {
-            "label": "1. Arka plan"
-          },
-          "options__4": {
-            "label": "2. Arka plan"
-          },
-          "options__5": {
-            "label": "Ters"
-          },
-          "label": "Renk şeması"
-        },
         "full_width": {
           "label": "Bölümü tam genişlikli yap"
         }
@@ -1999,18 +1889,6 @@
           "settings": {
             "heading": {
               "label": "Başlık"
-            },
-            "heading_size": {
-              "options__1": {
-                "label": "Küçük"
-              },
-              "options__2": {
-                "label": "Orta"
-              },
-              "label": "Başlık boyutu",
-              "options__3": {
-                "label": "Büyük"
-              }
             }
           }
         },
@@ -2212,23 +2090,7 @@
           "label": "Görsel yer paylaşımı opaklığı"
         },
         "color_scheme": {
-          "options__1": {
-            "label": "1. Vurgu"
-          },
-          "options__2": {
-            "label": "2. Vurgu"
-          },
-          "options__3": {
-            "label": "1. Arka plan"
-          },
-          "options__4": {
-            "label": "2. Arka plan"
-          },
-          "options__5": {
-            "label": "Ters"
-          },
-          "label": "Renk şeması",
-          "info": "Kapsayıcı gösterildiğinde görünür"
+          "info": "Kapsayıcı gösterildiğinde görünür."
         },
         "show_text_below": {
           "label": "Mobil cihaz üzerinde görselin altındaki içeriği göster",
@@ -2422,18 +2284,6 @@
             "secondary_style": {
               "label": "Dış çizgi düğme stilini kullan"
             },
-            "heading_size": {
-              "label": "Başlık boyutu",
-              "options__1": {
-                "label": "Küçük"
-              },
-              "options__2": {
-                "label": "Orta"
-              },
-              "options__3": {
-                "label": "Büyük"
-              }
-            },
             "box_align": {
               "label": "Masaüstü içerik konumu",
               "options__1": {
@@ -2484,23 +2334,7 @@
               "label": "Görsel yer paylaşımı opaklığı"
             },
             "color_scheme": {
-              "info": "Kapsayıcı gösterildiğinde görünür.",
-              "options__1": {
-                "label": "1. Vurgu"
-              },
-              "options__2": {
-                "label": "2. Vurgu"
-              },
-              "options__3": {
-                "label": "1. Arka plan"
-              },
-              "options__4": {
-                "label": "2. Arka plan"
-              },
-              "options__5": {
-                "label": "Ters"
-              },
-              "label": "Renk şeması"
+              "info": "Kapsayıcı gösterildiğinde görünür."
             },
             "text_alignment_mobile": {
               "label": "Mobil içerik hizalaması",
@@ -2554,41 +2388,8 @@
             "label": "Bölüm kapsayıcı"
           }
         },
-        "color_scheme": {
-          "label": "Renk şeması",
-          "options__1": {
-            "label": "1. Arka plan"
-          },
-          "options__2": {
-            "label": "2. Arka plan"
-          },
-          "options__3": {
-            "label": "Ters"
-          },
-          "options__4": {
-            "label": "1. Vurgu"
-          },
-          "options__5": {
-            "label": "2. Vurgu"
-          }
-        },
         "container_color_scheme": {
           "label": "Kapsayıcı renk şeması",
-          "options__1": {
-            "label": "1. Arka plan"
-          },
-          "options__2": {
-            "label": "2. Arka plan"
-          },
-          "options__3": {
-            "label": "Ters"
-          },
-          "options__4": {
-            "label": "1. Vurgu"
-          },
-          "options__5": {
-            "label": "2. Vurgu"
-          },
           "info": "Düzen; satır veya bölüm kapsayıcısına ayarlandığında görünür."
         },
         "open_first_collapsible_row": {
