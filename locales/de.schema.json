@@ -53,7 +53,7 @@
       "settings": {
         "type_header_font": {
           "label": "Schriftart",
-          "info": "Die Auswahl einer anderen Schriftart kann sich auf die Geschwindigkeit deines Shops auswirken. [Weitere Informationen zu Systemschriftarten.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Die Auswahl einer anderen Schriftart kann sich auf die Geschwindigkeit deines Shops auswirken. [Weitere Informationen zu Systemschriftarten.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "header__1": {
           "content": "Überschriften"
@@ -63,7 +63,7 @@
         },
         "type_body_font": {
           "label": "Schriftart",
-          "info": "Die Auswahl einer anderen Schriftart kann sich auf die Geschwindigkeit deines Shops auswirken. [Weitere Informationen zu Systemschriftarten.](https://help.shopify.com/en/manual/online-store/os/store-speed/improving-speed#fonts)"
+          "info": "Die Auswahl einer anderen Schriftart kann sich auf die Geschwindigkeit deines Shops auswirken. [Weitere Informationen zu Systemschriftarten.](https://help.shopify.com/manual/online-store/os/store-speed/improving-speed#fonts)"
         },
         "heading_scale": {
           "label": "Schriftgrößenmaßstab"
@@ -434,7 +434,7 @@
             },
             "description": {
               "label": "Video-Alt-Text",
-              "info": "Beschreibe das Video, um Kunden mit Bildschirmlesegeräten den Zugriff zu ermöglichen."
+              "info": "Beschreibe das Video für Kunden, die Bildschirmlesegeräte benutzen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video-block)"
             }
           }
         }
@@ -460,7 +460,7 @@
           "options__3": {
             "label": "Quadratisch"
           },
-          "info": "Bearbeite deine Kategorien, um Bilder hinzuzufügen. [Mehr Informationen](https://help.shopify.com/en/manual/products/collections)"
+          "info": "Bearbeite deine Kategorien, um Bilder hinzuzufügen. [Mehr Informationen](https://help.shopify.com/manual/products/collections)"
         },
         "swipe_on_mobile": {
           "label": "Wischen auf Mobilgeräten aktivieren"
@@ -533,7 +533,7 @@
         },
         "show_image": {
           "label": "Feature-Bild anzeigen",
-          "info": "Verwende für Bilder ein Seitenverhältnis von 3:2 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Verwende für Bilder ein Seitenverhältnis von 3:2 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "show_date": {
           "label": "Datum anzeigen"
@@ -562,10 +562,7 @@
           "label": "Maximal anzuzeigende Produkte"
         },
         "show_view_all": {
-          "label": "Aktiviere die Schaltfläche \"Alle anzeigen\", wenn die Kategorie mehr Produkte enthält, als angezeigt werden"
-        },
-        "swipe_on_mobile": {
-          "label": "Wischen auf Mobilgeräten aktivieren"
+          "label": "\"Alles anzeigen\" aktivieren, wenn die Kategorie mehr Produkte enthält, als angezeigt werden"
         },
         "header": {
           "content": "Produktkarte"
@@ -590,10 +587,50 @@
         },
         "show_rating": {
           "label": "Produktbewertung anzeigen",
-          "info": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-collection-show-product-rating)"
+          "info": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-collection-show-product-rating)"
+        },
+        "enable_quick_buy": {
+          "label": "Schaltfläche zum schnellen Hinzufügen aktivieren",
+          "info": "Optimal bei Warenkörben des Typs Pop-up oder Einschub."
         },
         "columns_desktop": {
           "label": "Anzahl der Spalten auf dem Desktop"
+        },
+        "description": {
+          "label": "Beschreibung"
+        },
+        "show_description": {
+          "label": "Kategoriebeschreibung im Adminbereich anzeigen"
+        },
+        "description_style": {
+          "label": "Beschreibungsstil",
+          "options__1": {
+            "label": "Nachricht"
+          },
+          "options__2": {
+            "label": "Untertitel"
+          },
+          "options__3": {
+            "label": "Großbuchstaben"
+          }
+        },
+        "view_all_style": {
+          "options__1": {
+            "label": "Link"
+          },
+          "options__2": {
+            "label": "Umriss-Schaltfläche"
+          },
+          "options__3": {
+            "label": "Durchgehende Schaltfläche"
+          },
+          "label": "Stil \"Alles anzeigen\""
+        },
+        "enable_desktop_slider": {
+          "label": "Karussell auf Desktop aktivieren"
+        },
+        "full_width": {
+          "label": "Produkte auf gesamte Breite auslegen"
         },
         "header_mobile": {
           "content": "Mobiles Layout"
@@ -606,6 +643,9 @@
           "options__2": {
             "label": "2 Spalten"
           }
+        },
+        "swipe_on_mobile": {
+          "label": "Wischen auf Mobilgeräten aktivieren"
         }
       },
       "presets": {
@@ -649,7 +689,7 @@
         },
         "header__1": {
           "content": "E-Mail-Anmeldung",
-          "info": "Abonnenten, die automatisch zu deiner Kundenliste \"Akzeptiert Marketing\" hinzugefügt wurden. [Mehr Informationen](https://help.shopify.com/en/manual/customers/manage-customers)"
+          "info": "Abonnenten, die automatisch zu deiner Kundenliste \"Akzeptiert Marketing\" hinzugefügt wurden. [Mehr Informationen](https://help.shopify.com/manual/customers/manage-customers)"
         },
         "header__2": {
           "content": "Social Media-Symbole",
@@ -777,7 +817,7 @@
           "options__3": {
             "label": "Groß"
           },
-          "info": "Verwende für Bilder ein Seitenverhältnis von 3:2 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Verwende für Bilder ein Seitenverhältnis von 3:2 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_content_position": {
           "options__1": {
@@ -1069,7 +1109,7 @@
               "options__3": {
                 "label": "Mittel"
               },
-              "info": "Verwende für Bilder ein Seitenverhältnis von 16:9 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
+              "info": "Verwende für Bilder ein Seitenverhältnis von 16:9 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)",
               "options__4": {
                 "label": "Groß"
               }
@@ -1094,10 +1134,10 @@
           "name": "Teilen",
           "settings": {
             "featured_image_info": {
-              "content": "Wenn du einen Link in Social-Media-Posts einfügst, wird das Feature-Bild der Seite als Vorschaubild angezeigt. [Mehr Informationen](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)"
+              "content": "Wenn du einen Link in Social-Media-Posts einfügst, wird das Feature-Bild der Seite als Vorschaubild angezeigt. [Mehr Informationen](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
             },
             "title_info": {
-              "content": "Ein Titel und eine Beschreibung des Shops sind im Vorschaubild enthalten. [Mehr Informationen](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
+              "content": "Ein Titel und eine Beschreibung des Shops sind im Vorschaubild enthalten. [Mehr Informationen](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
             },
             "text": {
               "label": "Text"
@@ -1116,7 +1156,7 @@
           "label": "Feature-Bild anzeigen"
         },
         "paragraph": {
-          "content": "Bearbeite deine Blog-Beiträge, um Auszüge zu ändern. [Mehr Informationen](https://help.shopify.com/en/manual/online-store/blogs/writing-blogs#display-an-excerpt-from-a-blog-post)"
+          "content": "Bearbeite deine Blog-Beiträge, um Auszüge zu ändern. [Mehr Informationen](https://help.shopify.com/manual/online-store/blogs/writing-blogs#display-an-excerpt-from-a-blog-post)"
         },
         "show_date": {
           "label": "Datum anzeigen"
@@ -1148,7 +1188,7 @@
           "options__4": {
             "label": "Groß"
           },
-          "info": "Verwende für Bilder ein Seitenverhältnis von 3:2 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Verwende für Bilder ein Seitenverhältnis von 3:2 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       }
     },
@@ -1180,14 +1220,14 @@
       "name": "Kategoriebanner",
       "settings": {
         "paragraph": {
-          "content": "Bearbeite deine Kategorien, um eine Beschreibung oder ein Bild hinzuzufügen. [Mehr Informationen](https://help.shopify.com/en/manual/products/collections/collection-layout)"
+          "content": "Bearbeite deine Kategorien, um eine Beschreibung oder ein Bild hinzuzufügen. [Mehr Informationen](https://help.shopify.com/manual/products/collections/collection-layout)"
         },
         "show_collection_description": {
           "label": "Kategoriebeschreibung anzeigen"
         },
         "show_collection_image": {
           "label": "Kategoriebild anzeigen",
-          "info": "Verwende für Bilder ein Seitenverhältnis von 16:9 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Verwende für Bilder ein Seitenverhältnis von 16:9 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         }
       }
     },
@@ -1232,12 +1272,13 @@
           "label": "Filtern aktivieren",
           "info": "[Filter anpassen](/admin/menus)"
         },
-        "collapse_on_larger_devices": {
-          "label": "Auf Desktop minimieren"
-        },
         "show_rating": {
           "label": "Produktbewertung anzeigen",
-          "info": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-grid-show-product-rating)"
+          "info": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-grid-section-settings)"
+        },
+        "enable_quick_buy": {
+          "label": "Schaltfläche zum schnellen Hinzufügen aktivieren",
+          "info": "Optimal bei Warenkörben des Typs Pop-up oder Einschub."
         },
         "columns_desktop": {
           "label": "Anzahl der Spalten auf dem Desktop"
@@ -1253,6 +1294,19 @@
           "options__2": {
             "label": "2 Spalten"
           }
+        },
+        "filter_type": {
+          "label": "Desktopfilterlayout",
+          "options__1": {
+            "label": "Horizontal"
+          },
+          "options__2": {
+            "label": "Vertikal"
+          },
+          "options__3": {
+            "label": "Einschub"
+          },
+          "info": "Das Standardlayout für Mobilgeräte ist \"Einschub\"."
         }
       }
     },
@@ -1294,7 +1348,22 @@
           "options__3": {
             "label": "Quadratisch"
           },
-          "info": "Bearbeite deine Kategorien, um Bilder hinzuzufügen. [Mehr Informationen](https://help.shopify.com/en/manual/products/collections)"
+          "info": "Bearbeite deine Kategorien, um Bilder hinzuzufügen. [Mehr Informationen](https://help.shopify.com/manual/products/collections)"
+        },
+        "columns_desktop": {
+          "label": "Anzahl der Spalten auf dem Desktop"
+        },
+        "header_mobile": {
+          "content": "Mobiles Layout"
+        },
+        "columns_mobile": {
+          "label": "Anzahl der Spalten auf mobilem Gerät",
+          "options__1": {
+            "label": "1 Spalte"
+          },
+          "options__2": {
+            "label": "2 Spalten"
+          }
         }
       }
     },
@@ -1380,10 +1449,10 @@
           "name": "Teilen",
           "settings": {
             "featured_image_info": {
-              "content": "Wenn du einen Link in Social-Media-Posts einfügst, wird das Feature-Bild der Seite als Vorschaubild angezeigt. [Mehr Informationen](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)."
+              "content": "Wenn du einen Link in Social-Media-Posts einfügst, wird das Feature-Bild der Seite als Vorschaubild angezeigt. [Mehr Informationen](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)."
             },
             "title_info": {
-              "content": "Ein Titel und eine Beschreibung des Shops sind im Vorschaubild enthalten. [Mehr Informationen](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
+              "content": "Ein Titel und eine Beschreibung des Shops sind im Vorschaubild enthalten. [Mehr Informationen](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)."
             },
             "text": {
               "label": "Text"
@@ -1564,7 +1633,7 @@
           "name": "Produktbewertung",
           "settings": {
             "paragraph": {
-              "content": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-rating-block)"
+              "content": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-rating-block)"
             }
           }
         }
@@ -1655,7 +1724,7 @@
         },
         "show_rating": {
           "label": "Produktbewertung anzeigen",
-          "info": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#search-results-show-product-rating)"
+          "info": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#search-results-section-settings)"
         },
         "columns_desktop": {
           "label": "Anzahl der Spalten auf dem Desktop"
@@ -1783,7 +1852,7 @@
           "label": "Abschnitt über die gesamte Breite"
         },
         "paragraph": {
-          "content": "Durch jedes E-Mail-Abonnement wird ein Kundenkonto erstellt. [Mehr Informationen](https://help.shopify.com/en/manual/customers)"
+          "content": "Durch jedes E-Mail-Abonnement wird ein Kundenkonto erstellt. [Mehr Informationen](https://help.shopify.com/manual/customers)"
         }
       },
       "blocks": {
@@ -1850,11 +1919,11 @@
           "label": "Anbieter anzeigen"
         },
         "paragraph__1": {
-          "content": "Dynamische Empfehlungen nutzen Bestell- und Produktinformationen, um sich mit der Zeit zu verändern und zu verbessern. [Weitere Informationen](https://help.shopify.com/en/themes/development/recommended-products)"
+          "content": "Dynamische Empfehlungen nutzen Bestell- und Produktinformationen, um sich mit der Zeit zu verändern und zu verbessern. [Weitere Informationen](https://help.shopify.com/themes/development/recommended-products)"
         },
         "show_rating": {
           "label": "Produktbewertung anzeigen",
-          "info": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/page-types#product-recommendations-show-product-rating)"
+          "info": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/theme-structure/page-types#product-recommendations-section-settings)"
         },
         "columns_desktop": {
           "label": "Anzahl der Spalten auf dem Desktop"
@@ -1946,7 +2015,7 @@
         },
         "description": {
           "label": "Video-Alt-Text",
-          "info": "Beschreibe das Video, um Kunden mit Bildschirmlesegeräten den Zugriff zu ermöglichen."
+          "info": "Beschreibe das Video für Kunden, die Bildschirmlesegeräte benutzen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video)"
         },
         "image_padding": {
           "label": "Bild-Padding hinzufügen",
@@ -2022,10 +2091,10 @@
           "name": "Teilen",
           "settings": {
             "featured_image_info": {
-              "content": "Wenn du einen Link in Social-Media-Posts einfügst, wird das Feature-Bild der Seite als Vorschaubild angezeigt. [Mehr Informationen](https://help.shopify.com/en/manual/online-store/images/showing-social-media-thumbnail-images)"
+              "content": "Wenn du einen Link in Social-Media-Posts einfügst, wird das Feature-Bild der Seite als Vorschaubild angezeigt. [Mehr Informationen](https://help.shopify.com/manual/online-store/images/showing-social-media-thumbnail-images)"
             },
             "title_info": {
-              "content": "Ein Titel und eine Beschreibung des Shops sind im Vorschaubild enthalten. [Mehr Informationen](https://help.shopify.com/en/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
+              "content": "Ein Titel und eine Beschreibung des Shops sind im Vorschaubild enthalten. [Mehr Informationen](https://help.shopify.com/manual/promoting-marketing/seo/adding-keywords#set-a-title-and-description-for-your-online-store)"
             },
             "text": {
               "label": "Text"
@@ -2044,7 +2113,7 @@
           "name": "Produktbewertung",
           "settings": {
             "paragraph": {
-              "content": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn/sections#featured-product-rating)"
+              "content": "Um eine Bewertung anzuzeigen, musst du eine Produktbewertungs-App hinzufügen. [Mehr Informationen](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#featured-product-rating)"
             }
           }
         }
@@ -2075,7 +2144,7 @@
       "name": "Banner für E-Mail-Anmeldung",
       "settings": {
         "paragraph": {
-          "content": "Durch jedes E-Mail-Abonnement wird ein Kundenkonto erstellt. [Mehr Informationen](https://help.shopify.com/en/manual/customers)"
+          "content": "Durch jedes E-Mail-Abonnement wird ein Kundenkonto erstellt. [Mehr Informationen](https://help.shopify.com/manual/customers)"
         },
         "image": {
           "label": "Hintergrundbild"
@@ -2094,7 +2163,7 @@
         },
         "show_text_below": {
           "label": "Auf Mobilgeräten Inhalt unterhalb der Bilder anzeigen",
-          "info": "Verwende Bilder mit einem Seitenverhältnis von 16:9 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Verwende Bilder mit einem Seitenverhältnis von 16:9 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "image_height": {
           "label": "Bannerhöhe",
@@ -2110,7 +2179,7 @@
           "options__4": {
             "label": "Groß"
           },
-          "info": "Verwende Bilder mit einem Seitenverhältnis von 16:9 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/en/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
+          "info": "Verwende Bilder mit einem Seitenverhältnis von 16:9 für optimale Ergebnisse. [Mehr Informationen](https://help.shopify.com/manual/shopify-admin/productivity-tools/image-editor#understanding-image-aspect-ratio)"
         },
         "desktop_content_position": {
           "options__1": {
