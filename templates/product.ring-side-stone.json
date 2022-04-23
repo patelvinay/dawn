@@ -43,11 +43,6 @@
             "share_label": "Share"
           }
         },
-        "ef61678b-9f9c-4470-9db0-89f00b0648d0": {
-          "type": "shopify:\/\/apps\/infinite-options-by-shoppad\/blocks\/app-block\/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -93,7 +88,6 @@
         "price",
         "da7c7ae7-e2e8-46df-aaaf-1d30239cab25",
         "share",
-        "ef61678b-9f9c-4470-9db0-89f00b0648d0",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
