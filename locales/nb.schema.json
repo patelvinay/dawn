@@ -268,7 +268,7 @@
           "options__4": {
             "label": "Øverst til høyre"
           },
-          "label": "Posisjon for produktkort"
+          "label": "Plassering på kort"
         },
         "sale_badge_color_scheme": {
           "label": "Fargetema for salgsmerke"
@@ -282,7 +282,8 @@
       "name": "Knapper"
     },
     "variant_pills": {
-      "name": "Variantknapper"
+      "name": "Variantknapper",
+      "paragraph": "Variantknapper er én måte å presentere produktvarianter på. [Finn ut mer](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Inputs"
@@ -299,6 +300,36 @@
     },
     "drawers": {
       "name": "Skuffer"
+    },
+    "cart": {
+      "name": "Handlekurv",
+      "settings": {
+        "cart_type": {
+          "label": "Handlekurvtype",
+          "drawer": {
+            "label": "Skuff"
+          },
+          "page": {
+            "label": "Side"
+          },
+          "notification": {
+            "label": "Popup-varsel"
+          }
+        },
+        "show_vendor": {
+          "label": "Vis selger"
+        },
+        "show_cart_note": {
+          "label": "Aktiver handlekurvnotat"
+        },
+        "cart_drawer": {
+          "header": "Handlekurvskuff",
+          "collection": {
+            "label": "Samling",
+            "info": "Synlig når handlekurvskuffen er tom."
+          }
+        }
+      }
     }
   },
   "sections": {
@@ -338,6 +369,9 @@
         },
         "options__3": {
           "label": "Stor"
+        },
+        "options__4": {
+          "label": "Ekstra stort"
         }
       }
     },
@@ -349,6 +383,18 @@
           "settings": {
             "text": {
               "label": "Tekst"
+            },
+            "text_alignment": {
+              "label": "Tekstjustering",
+              "options__1": {
+                "label": "Venstre"
+              },
+              "options__2": {
+                "label": "Sentrert"
+              },
+              "options__3": {
+                "label": "Høyre"
+              }
             },
             "link": {
               "label": "Kobling"
@@ -458,7 +504,7 @@
             "label": "Portrett"
           },
           "options__3": {
-            "label": "Square"
+            "label": "Firkant"
           },
           "info": "Legg til bilder ved å redigere samlingene dine. [Finn ut mer](https://help.shopify.com/manual/products/collections)"
         },
@@ -576,7 +622,7 @@
             "label": "Portrett"
           },
           "options__3": {
-            "label": "Square"
+            "label": "Firkant"
           }
         },
         "show_secondary_image": {
@@ -659,8 +705,7 @@
           "name": "Meny",
           "settings": {
             "heading": {
-              "label": "Overskrift",
-              "info": "Overskrift kreves for å vise menyen."
+              "label": "Overskrift"
             },
             "menu": {
               "label": "Meny",
@@ -1194,11 +1239,6 @@
     },
     "main-cart-footer": {
       "name": "Delsum",
-      "settings": {
-        "show_cart_note": {
-          "label": "Aktiver handlekurvnotat"
-        }
-      },
       "blocks": {
         "subtotal": {
           "name": "Delsumpris"
@@ -1209,12 +1249,7 @@
       }
     },
     "main-cart-items": {
-      "name": "Varer",
-      "settings": {
-        "show_vendor": {
-          "label": "Vis selger"
-        }
-      }
+      "name": "Varer"
     },
     "main-collection-banner": {
       "name": "Samlingsbanner",
@@ -1253,7 +1288,7 @@
             "label": "Portrett"
           },
           "options__3": {
-            "label": "Square"
+            "label": "Firkant"
           }
         },
         "show_secondary_image": {
@@ -1346,7 +1381,7 @@
             "label": "Portrett"
           },
           "options__3": {
-            "label": "Square"
+            "label": "Firkant"
           },
           "info": "Legg til bilder ved å redigere samlingene dine. [Finn ut mer](https://help.shopify.com/manual/products/collections)"
         },
@@ -1701,7 +1736,7 @@
             "label": "Portrett"
           },
           "options__3": {
-            "label": "Square"
+            "label": "Firkant"
           }
         },
         "show_secondary_image": {
@@ -1770,7 +1805,7 @@
             "label": "Portrett"
           },
           "options__3": {
-            "label": "Square"
+            "label": "Firkant"
           },
           "options__4": {
             "label": "Sirkel"
@@ -1909,7 +1944,7 @@
             "label": "Portrett"
           },
           "options__3": {
-            "label": "Square"
+            "label": "Firkant"
           }
         },
         "show_secondary_image": {
@@ -1950,6 +1985,31 @@
       "settings": {
         "full_width": {
           "label": "Gjør seksjonen til full bredde"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Venstre"
+          },
+          "options__2": {
+            "label": "Sentrert"
+          },
+          "options__3": {
+            "label": "Høyre"
+          },
+          "label": "Innholdsplassering på datamaskin",
+          "info": "Posisjonen optimaliseres automatisk for mobil."
+        },
+        "content_alignment": {
+          "options__1": {
+            "label": "Venstre"
+          },
+          "options__2": {
+            "label": "Sentrert"
+          },
+          "options__3": {
+            "label": "Høyre"
+          },
+          "label": "Innholdsjustering"
         }
       },
       "blocks": {
@@ -1969,17 +2029,57 @@
             }
           }
         },
-        "button": {
-          "name": "Knapp",
+        "buttons": {
+          "name": "Knapper",
           "settings": {
-            "button_label": {
-              "label": "Knappetikett"
+            "button_label_1": {
+              "label": "Første knappetikett",
+              "info": "La etiketten stå tom for å skjule knappen."
             },
-            "button_link": {
-              "label": "Knappekobling"
+            "button_link_1": {
+              "label": "Første knappekobling"
             },
-            "button_style_secondary": {
+            "button_style_secondary_1": {
               "label": "Bruk knappestil med omriss"
+            },
+            "button_label_2": {
+              "label": "Andre knappetikett",
+              "info": "La etiketten stå tom for å skjule knappen."
+            },
+            "button_link_2": {
+              "label": "Andre knappekobling"
+            },
+            "button_style_secondary_2": {
+              "label": "Bruk knappestil med omriss"
+            }
+          }
+        },
+        "caption": {
+          "name": "Bildetekst",
+          "settings": {
+            "text": {
+              "label": "Tekst"
+            },
+            "text_style": {
+              "label": "Tekststil",
+              "options__1": {
+                "label": "Undertekst"
+              },
+              "options__2": {
+                "label": "Store bokstaver"
+              }
+            },
+            "caption_size": {
+              "label": "Tekststørrelse",
+              "options__1": {
+                "label": "Liten"
+              },
+              "options__2": {
+                "label": "Middels"
+              },
+              "options__3": {
+                "label": "Stor"
+              }
             }
           }
         }
@@ -2648,6 +2748,27 @@
       "presets": {
         "name": "Sammenleggbart innhold"
       }
+    },
+    "main-account": {
+      "name": "Konto"
+    },
+    "main-activate-account": {
+      "name": "Kontoaktivering"
+    },
+    "main-addresses": {
+      "name": "Adresser"
+    },
+    "main-login": {
+      "name": "Logg på"
+    },
+    "main-order": {
+      "name": "Bestilling"
+    },
+    "main-register": {
+      "name": "Registrering"
+    },
+    "main-reset-password": {
+      "name": "Tilbakestill passord"
     }
   }
 }

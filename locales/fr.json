@@ -255,7 +255,8 @@
         "product": "Produit",
         "price": "Prix",
         "total": "Total",
-        "quantity": "Quantité"
+        "quantity": "Quantité",
+        "image": "Image de produit"
       },
       "update": "Mettre à jour",
       "login": {
@@ -384,7 +385,7 @@
     },
     "reset_password": {
       "title": "Réinitialiser le mot de passe du compte",
-      "subtext": "Saisir un nouveau mot de passe pour {{ email }}",
+      "subtext": "Saisissez un nouveau mot de passe",
       "password": "Mot de passe",
       "password_confirm": "Confirmer le mot de passe",
       "submit": "Réinitialiser le mot de passe"

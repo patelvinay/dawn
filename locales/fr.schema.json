@@ -268,7 +268,7 @@
           "options__4": {
             "label": "En haut à droite"
           },
-          "label": "Position de la carte de produit"
+          "label": "Position sur les cartes"
         },
         "sale_badge_color_scheme": {
           "label": "Combinaison de couleurs du badge de vente"
@@ -282,7 +282,8 @@
       "name": "Boutons"
     },
     "variant_pills": {
-      "name": "Boutons pilule de variante"
+      "name": "Boutons pilule de variante",
+      "paragraph": "Les boutons pilule de variante servent à afficher les variantes de produit. [En savoir plus](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Entrées"
@@ -299,6 +300,36 @@
     },
     "drawers": {
       "name": "Tiroirs"
+    },
+    "cart": {
+      "name": "Panier",
+      "settings": {
+        "cart_type": {
+          "label": "Type de panier",
+          "drawer": {
+            "label": "Tiroir"
+          },
+          "page": {
+            "label": "Page"
+          },
+          "notification": {
+            "label": "Notification contextuelle"
+          }
+        },
+        "show_vendor": {
+          "label": "Afficher le distributeur"
+        },
+        "show_cart_note": {
+          "label": "Activer la note de panier"
+        },
+        "cart_drawer": {
+          "header": "Panier coulissant",
+          "collection": {
+            "label": "Collection",
+            "info": "Visible lorsque le panier coulissant est vide."
+          }
+        }
+      }
     }
   },
   "sections": {
@@ -338,6 +369,9 @@
         },
         "options__3": {
           "label": "Grand"
+        },
+        "options__4": {
+          "label": "Très grand"
         }
       }
     },
@@ -349,6 +383,18 @@
           "settings": {
             "text": {
               "label": "Texte"
+            },
+            "text_alignment": {
+              "label": "Alignement du texte",
+              "options__1": {
+                "label": "Gauche"
+              },
+              "options__2": {
+                "label": "Centre"
+              },
+              "options__3": {
+                "label": "Droite"
+              }
             },
             "link": {
               "label": "Lien"
@@ -659,8 +705,7 @@
           "name": "Menu",
           "settings": {
             "heading": {
-              "label": "En-tête",
-              "info": "Un titre est nécessaire pour afficher le menu."
+              "label": "En-tête"
             },
             "menu": {
               "label": "Menu",
@@ -1194,11 +1239,6 @@
     },
     "main-cart-footer": {
       "name": "Sous-total",
-      "settings": {
-        "show_cart_note": {
-          "label": "Activer la note de panier"
-        }
-      },
       "blocks": {
         "subtotal": {
           "name": "Sous-total du prix"
@@ -1209,12 +1249,7 @@
       }
     },
     "main-cart-items": {
-      "name": "Articles",
-      "settings": {
-        "show_vendor": {
-          "label": "Afficher le distributeur"
-        }
-      }
+      "name": "Articles"
     },
     "main-collection-banner": {
       "name": "Bannière de collection",
@@ -1950,6 +1985,31 @@
       "settings": {
         "full_width": {
           "label": "Rendre la section pleine largeur"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Gauche"
+          },
+          "options__2": {
+            "label": "Centre"
+          },
+          "options__3": {
+            "label": "Droite"
+          },
+          "label": "Position du contenu sur ordinateur",
+          "info": "La position est automatiquement optimisée pour les mobiles."
+        },
+        "content_alignment": {
+          "options__1": {
+            "label": "Gauche"
+          },
+          "options__2": {
+            "label": "Centre"
+          },
+          "options__3": {
+            "label": "Droite"
+          },
+          "label": "Alignement du contenu"
         }
       },
       "blocks": {
@@ -1969,17 +2029,57 @@
             }
           }
         },
-        "button": {
-          "name": "Bouton",
+        "buttons": {
+          "name": "Boutons",
           "settings": {
-            "button_label": {
-              "label": "Texte du bouton"
+            "button_label_1": {
+              "label": "Texte du premier bouton",
+              "info": "Laissez le texte vide pour masquer le bouton."
             },
-            "button_link": {
-              "label": "Lien du bouton"
+            "button_link_1": {
+              "label": "Lien du premier bouton"
             },
-            "button_style_secondary": {
-              "label": "Utiliser le style du bouton en relief"
+            "button_style_secondary_1": {
+              "label": "Utiliser le style de bouton en relief"
+            },
+            "button_label_2": {
+              "label": "Texte du deuxième bouton",
+              "info": "Laissez le texte vide pour masquer le bouton."
+            },
+            "button_link_2": {
+              "label": "Lien du deuxième bouton"
+            },
+            "button_style_secondary_2": {
+              "label": "Utiliser le style de bouton en relief"
+            }
+          }
+        },
+        "caption": {
+          "name": "Légende",
+          "settings": {
+            "text": {
+              "label": "Texte"
+            },
+            "text_style": {
+              "label": "Style de texte",
+              "options__1": {
+                "label": "Sous‑titre"
+              },
+              "options__2": {
+                "label": "Majuscule"
+              }
+            },
+            "caption_size": {
+              "label": "Taille du texte",
+              "options__1": {
+                "label": "Petit"
+              },
+              "options__2": {
+                "label": "Moyen"
+              },
+              "options__3": {
+                "label": "Grand"
+              }
             }
           }
         }
@@ -2648,6 +2748,27 @@
       "presets": {
         "name": "Contenu réductible"
       }
+    },
+    "main-account": {
+      "name": "Compte"
+    },
+    "main-activate-account": {
+      "name": "Activation du compte"
+    },
+    "main-addresses": {
+      "name": "Adresses"
+    },
+    "main-login": {
+      "name": "Se connecter"
+    },
+    "main-order": {
+      "name": "Commande"
+    },
+    "main-register": {
+      "name": "Inscription"
+    },
+    "main-reset-password": {
+      "name": "Réinitialisation du mot de passe"
     }
   }
 }

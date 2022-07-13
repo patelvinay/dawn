@@ -268,7 +268,7 @@
           "options__4": {
             "label": "Ylhäällä oikealla"
           },
-          "label": "Tuotekortin sijainti"
+          "label": "Sijainti korteilla"
         },
         "sale_badge_color_scheme": {
           "label": "Alennusmyynti-tunnuksen värimalli"
@@ -282,7 +282,8 @@
       "name": "Painikkeet"
     },
     "variant_pills": {
-      "name": "Versioiden kuvakkeet"
+      "name": "Versioiden kuvakkeet",
+      "paragraph": "Versiopillerit ovat yksi tapa näyttää tuoteversiosi asiakkaille. [Lisätietoja](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Syötteet"
@@ -299,6 +300,36 @@
     },
     "drawers": {
       "name": "Vetolaatikot"
+    },
+    "cart": {
+      "name": "Ostoskori",
+      "settings": {
+        "cart_type": {
+          "label": "Ostoskorin tyyppi",
+          "drawer": {
+            "label": "Laatikko"
+          },
+          "page": {
+            "label": "Sivu"
+          },
+          "notification": {
+            "label": "Ponnahdusikkunailmoitukset"
+          }
+        },
+        "show_vendor": {
+          "label": "Näytä myyjä"
+        },
+        "show_cart_note": {
+          "label": "Ota tilauskommentit käyttöön"
+        },
+        "cart_drawer": {
+          "header": "Veto-ostoskori",
+          "collection": {
+            "label": "Kokoelma",
+            "info": "Näkyy, kun veto-ostoskori on tyhjä."
+          }
+        }
+      }
     }
   },
   "sections": {
@@ -338,6 +369,9 @@
         },
         "options__3": {
           "label": "Suuri"
+        },
+        "options__4": {
+          "label": "Erittäin suuri"
         }
       }
     },
@@ -349,6 +383,18 @@
           "settings": {
             "text": {
               "label": "Teksti"
+            },
+            "text_alignment": {
+              "label": "Tekstin tasaus",
+              "options__1": {
+                "label": "Vasen"
+              },
+              "options__2": {
+                "label": "Keskitetty"
+              },
+              "options__3": {
+                "label": "Oikea"
+              }
             },
             "link": {
               "label": "Linkki"
@@ -659,8 +705,7 @@
           "name": "Valikko",
           "settings": {
             "heading": {
-              "label": "Otsikko",
-              "info": "Valikon näyttäminen edellyttää otsikkoa."
+              "label": "Otsikko"
             },
             "menu": {
               "label": "Valikko",
@@ -1194,11 +1239,6 @@
     },
     "main-cart-footer": {
       "name": "Välisumma",
-      "settings": {
-        "show_cart_note": {
-          "label": "Ota tilauskommentit käyttöön"
-        }
-      },
       "blocks": {
         "subtotal": {
           "name": "Välisumma yhteensä"
@@ -1209,12 +1249,7 @@
       }
     },
     "main-cart-items": {
-      "name": "Tuotteet",
-      "settings": {
-        "show_vendor": {
-          "label": "Näytä myyjä"
-        }
-      }
+      "name": "Tuotteet"
     },
     "main-collection-banner": {
       "name": "Kokoelmabanneri",
@@ -1950,6 +1985,31 @@
       "settings": {
         "full_width": {
           "label": "Tee osiosta täysleveä"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Vasen"
+          },
+          "options__2": {
+            "label": "Keskitetty"
+          },
+          "options__3": {
+            "label": "Oikea"
+          },
+          "label": "Työpöytäsisällön sijainti",
+          "info": "Sijainti optimoidaan automaattisesti mobiililaitteille."
+        },
+        "content_alignment": {
+          "options__1": {
+            "label": "Vasen"
+          },
+          "options__2": {
+            "label": "Keskitetty"
+          },
+          "options__3": {
+            "label": "Oikea"
+          },
+          "label": "Sisällön kohdistus"
         }
       },
       "blocks": {
@@ -1969,17 +2029,57 @@
             }
           }
         },
-        "button": {
-          "name": "Painike",
+        "buttons": {
+          "name": "Painikkeet",
           "settings": {
-            "button_label": {
-              "label": "Tekstipainike"
+            "button_label_1": {
+              "label": "Ensimmäinen tekstipainike",
+              "info": "Jos haluat piilottaa painikkeen, jätä painikkeen teksti tyhjäksi."
             },
-            "button_link": {
-              "label": "Painikelinkki"
+            "button_link_1": {
+              "label": "Ensimmäinen painikelinkki"
             },
-            "button_style_secondary": {
+            "button_style_secondary_1": {
               "label": "Käytä ääriviivallista painiketyyliä"
+            },
+            "button_label_2": {
+              "label": "Toinen tekstipainike",
+              "info": "Jos haluat piilottaa painikkeen, jätä painikkeen teksti tyhjäksi."
+            },
+            "button_link_2": {
+              "label": "Toinen painikelinkki"
+            },
+            "button_style_secondary_2": {
+              "label": "Käytä ääriviivallista painiketyyliä"
+            }
+          }
+        },
+        "caption": {
+          "name": "Kuvateksti",
+          "settings": {
+            "text": {
+              "label": "Teksti"
+            },
+            "text_style": {
+              "label": "Tekstityyli",
+              "options__1": {
+                "label": "Alaotsikko"
+              },
+              "options__2": {
+                "label": "Isot kirjaimet"
+              }
+            },
+            "caption_size": {
+              "label": "Tekstin koko",
+              "options__1": {
+                "label": "Pieni"
+              },
+              "options__2": {
+                "label": "Keskisuuri"
+              },
+              "options__3": {
+                "label": "Suuri"
+              }
             }
           }
         }
@@ -2648,6 +2748,27 @@
       "presets": {
         "name": "Pienenettävä sisältö"
       }
+    },
+    "main-account": {
+      "name": "Tili"
+    },
+    "main-activate-account": {
+      "name": "Tilin aktivointi"
+    },
+    "main-addresses": {
+      "name": "Osoitteet"
+    },
+    "main-login": {
+      "name": "Kirjautuminen"
+    },
+    "main-order": {
+      "name": "Tilaus"
+    },
+    "main-register": {
+      "name": "Rekisteröinti"
+    },
+    "main-reset-password": {
+      "name": "Salasanan palautus"
     }
   }
 }

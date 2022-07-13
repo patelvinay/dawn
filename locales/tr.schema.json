@@ -268,7 +268,7 @@
           "options__4": {
             "label": "Üst sağ"
           },
-          "label": "Ürün kartı konumu"
+          "label": "Kartlardaki konum"
         },
         "sale_badge_color_scheme": {
           "label": "İndirim rozeti renk şeması"
@@ -282,7 +282,8 @@
       "name": "Düğmeler"
     },
     "variant_pills": {
-      "name": "Varyasyon seçenekleri"
+      "name": "Varyasyon seçenekleri",
+      "paragraph": "Varyasyon seçenekleri, ürün varyasyonlarınızı göstermenin bir yoludur. [Daha fazla bilgi edinin](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Girdiler"
@@ -299,6 +300,36 @@
     },
     "drawers": {
       "name": "Çekmeceler"
+    },
+    "cart": {
+      "name": "Sepet",
+      "settings": {
+        "cart_type": {
+          "label": "Sepet türü",
+          "drawer": {
+            "label": "Çekmece"
+          },
+          "page": {
+            "label": "Sayfa"
+          },
+          "notification": {
+            "label": "Açılır pencere bildirimi"
+          }
+        },
+        "show_vendor": {
+          "label": "Satıcıyı göster"
+        },
+        "show_cart_note": {
+          "label": "Sepet notunu etkinleştir"
+        },
+        "cart_drawer": {
+          "header": "Sepet çekmecesi",
+          "collection": {
+            "label": "Koleksiyon",
+            "info": "Sepet çekmecesi boşken görünür."
+          }
+        }
+      }
     }
   },
   "sections": {
@@ -338,6 +369,9 @@
         },
         "options__3": {
           "label": "Büyük"
+        },
+        "options__4": {
+          "label": "Çok büyük"
         }
       }
     },
@@ -349,6 +383,18 @@
           "settings": {
             "text": {
               "label": "Metin"
+            },
+            "text_alignment": {
+              "label": "Metin hizalaması",
+              "options__1": {
+                "label": "Sol"
+              },
+              "options__2": {
+                "label": "Orta"
+              },
+              "options__3": {
+                "label": "Sağ"
+              }
             },
             "link": {
               "label": "Bağlantı"
@@ -659,8 +705,7 @@
           "name": "Menü",
           "settings": {
             "heading": {
-              "label": "Başlık",
-              "info": "Menünün gösterilmesi için başlık gereklidir."
+              "label": "Başlık"
             },
             "menu": {
               "label": "Menü",
@@ -1194,11 +1239,6 @@
     },
     "main-cart-footer": {
       "name": "Alt toplam",
-      "settings": {
-        "show_cart_note": {
-          "label": "Sepet notunu etkinleştir"
-        }
-      },
       "blocks": {
         "subtotal": {
           "name": "Alt toplam fiyatı"
@@ -1209,12 +1249,7 @@
       }
     },
     "main-cart-items": {
-      "name": "Ürünler",
-      "settings": {
-        "show_vendor": {
-          "label": "Satıcıyı göster"
-        }
-      }
+      "name": "Ürünler"
     },
     "main-collection-banner": {
       "name": "Koleksiyon banner'ı",
@@ -1950,6 +1985,31 @@
       "settings": {
         "full_width": {
           "label": "Bölümü tam genişlikli yap"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Sol"
+          },
+          "options__2": {
+            "label": "Orta"
+          },
+          "options__3": {
+            "label": "Sağ"
+          },
+          "label": "Masaüstü içerik konumu",
+          "info": "Konum, mobil cihazlar için otomatik olarak optimize edilir."
+        },
+        "content_alignment": {
+          "options__1": {
+            "label": "Sol"
+          },
+          "options__2": {
+            "label": "Orta"
+          },
+          "options__3": {
+            "label": "Sağ"
+          },
+          "label": "İçerik hizalaması"
         }
       },
       "blocks": {
@@ -1969,17 +2029,57 @@
             }
           }
         },
-        "button": {
-          "name": "Düğme",
+        "buttons": {
+          "name": "Düğmeler",
           "settings": {
-            "button_label": {
-              "label": "Düğme etiketi"
+            "button_label_1": {
+              "label": "İlk düğme etiketi",
+              "info": "Düğmeyi gizlemek için etiketi boş bırakın."
             },
-            "button_link": {
-              "label": "Düğme bağlantısı"
+            "button_link_1": {
+              "label": "İlk düğme bağlantısı"
             },
-            "button_style_secondary": {
+            "button_style_secondary_1": {
               "label": "Dış çizgi düğme stilini kullan"
+            },
+            "button_label_2": {
+              "label": "İkinci düğme etiketi",
+              "info": "Düğmeyi gizlemek için etiketi boş bırakın."
+            },
+            "button_link_2": {
+              "label": "İkinci düğme bağlantısı"
+            },
+            "button_style_secondary_2": {
+              "label": "Dış çizgi düğme stilini kullan"
+            }
+          }
+        },
+        "caption": {
+          "name": "Alt yazı",
+          "settings": {
+            "text": {
+              "label": "Metin rengi"
+            },
+            "text_style": {
+              "label": "Metin stili",
+              "options__1": {
+                "label": "Alt yazı"
+              },
+              "options__2": {
+                "label": "Büyük harf"
+              }
+            },
+            "caption_size": {
+              "label": "Metin boyutu",
+              "options__1": {
+                "label": "Küçük"
+              },
+              "options__2": {
+                "label": "Orta"
+              },
+              "options__3": {
+                "label": "Büyük"
+              }
             }
           }
         }
@@ -2648,6 +2748,27 @@
       "presets": {
         "name": "Daraltılabilir içerik"
       }
+    },
+    "main-account": {
+      "name": "Hesap"
+    },
+    "main-activate-account": {
+      "name": "Hesap etkinleştirme"
+    },
+    "main-addresses": {
+      "name": "Adresler"
+    },
+    "main-login": {
+      "name": "Giriş bilgileri"
+    },
+    "main-order": {
+      "name": "Sipariş"
+    },
+    "main-register": {
+      "name": "Kayıt"
+    },
+    "main-reset-password": {
+      "name": "Parola sıfırlama"
     }
   }
 }

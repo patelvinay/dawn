@@ -263,7 +263,8 @@
         "product": "Produkt",
         "price": "Cena",
         "total": "Suma",
-        "quantity": "Ilość"
+        "quantity": "Ilość",
+        "image": "Obraz produktu"
       },
       "login": {
         "title": "Masz już konto?",
@@ -416,7 +417,7 @@
     },
     "reset_password": {
       "title": "Zresetuj hasło do konta",
-      "subtext": "Wprowadź nowe hasło do {{ email }}",
+      "subtext": "Wprowadź nowe hasło",
       "password": "Hasło",
       "password_confirm": "Potwierdź hasło",
       "submit": "Zresetuj hasło"

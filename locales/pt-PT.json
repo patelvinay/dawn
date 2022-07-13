@@ -255,7 +255,8 @@
         "product": "Produto",
         "price": "Preço",
         "total": "Total",
-        "quantity": "Quantidade"
+        "quantity": "Quantidade",
+        "image": "Imagem de produto"
       },
       "update": "Atualizar",
       "login": {
@@ -409,7 +410,7 @@
     },
     "reset_password": {
       "title": "Repor palavra-passe da conta",
-      "subtext": "Insira uma nova palavra-passe para {{ email }}",
+      "subtext": "Insira uma nova palavra-passe",
       "password": "Palavra-passe",
       "password_confirm": "Confirmar palavra-passe",
       "submit": "Repor palavra-passe"

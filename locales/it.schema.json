@@ -268,7 +268,7 @@
           "options__4": {
             "label": "In alto a destra"
           },
-          "label": "Posizione scheda prodotto"
+          "label": "Posizione sulle schede"
         },
         "sale_badge_color_scheme": {
           "label": "Schema colori per badge vendita"
@@ -282,7 +282,8 @@
       "name": "Pulsanti"
     },
     "variant_pills": {
-      "name": "Pulsanti di selezione variante"
+      "name": "Pulsanti di selezione variante",
+      "paragraph": "I pulsanti di selezione variante costituiscono uno dei modi in cui puoi visualizzare le varianti di prodotto. [Maggiori informazioni](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Input"
@@ -299,6 +300,36 @@
     },
     "drawers": {
       "name": "Finestre"
+    },
+    "cart": {
+      "name": "Carrello",
+      "settings": {
+        "cart_type": {
+          "label": "Tipo di carrello",
+          "drawer": {
+            "label": "Finestra"
+          },
+          "page": {
+            "label": "Pagina"
+          },
+          "notification": {
+            "label": "Notifica pop up"
+          }
+        },
+        "show_vendor": {
+          "label": "Mostra fornitore"
+        },
+        "show_cart_note": {
+          "label": "Abilita nota carrello"
+        },
+        "cart_drawer": {
+          "header": "Finestra del carrello",
+          "collection": {
+            "label": "Collezione",
+            "info": "Visibile quando la finestra del carrello è vuota."
+          }
+        }
+      }
     }
   },
   "sections": {
@@ -338,6 +369,9 @@
         },
         "options__3": {
           "label": "Grande"
+        },
+        "options__4": {
+          "label": "Extra large"
         }
       }
     },
@@ -349,6 +383,18 @@
           "settings": {
             "text": {
               "label": "Testo"
+            },
+            "text_alignment": {
+              "label": "Allineamento testo",
+              "options__1": {
+                "label": "A sinistra"
+              },
+              "options__2": {
+                "label": "Al centro"
+              },
+              "options__3": {
+                "label": "A destra"
+              }
             },
             "link": {
               "label": "Link"
@@ -659,8 +705,7 @@
           "name": "Menu",
           "settings": {
             "heading": {
-              "label": "Titolo",
-              "info": "Per visualizzare il menu è necessario un titolo."
+              "label": "Titolo"
             },
             "menu": {
               "label": "Menu",
@@ -1194,11 +1239,6 @@
     },
     "main-cart-footer": {
       "name": "Subtotale",
-      "settings": {
-        "show_cart_note": {
-          "label": "Abilita nota carrello"
-        }
-      },
       "blocks": {
         "subtotal": {
           "name": "Prezzo subtotale"
@@ -1209,12 +1249,7 @@
       }
     },
     "main-cart-items": {
-      "name": "Articoli",
-      "settings": {
-        "show_vendor": {
-          "label": "Mostra fornitore"
-        }
-      }
+      "name": "Articoli"
     },
     "main-collection-banner": {
       "name": "Banner collezione",
@@ -1950,6 +1985,31 @@
       "settings": {
         "full_width": {
           "label": "Crea sezione a larghezza intera"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "A sinistra"
+          },
+          "options__2": {
+            "label": "Al centro"
+          },
+          "options__3": {
+            "label": "A destra"
+          },
+          "label": "Posizione contenuto su desktop",
+          "info": "Posizione automaticamente ottimizzata per dispositivi mobili."
+        },
+        "content_alignment": {
+          "options__1": {
+            "label": "A sinistra"
+          },
+          "options__2": {
+            "label": "Al centro"
+          },
+          "options__3": {
+            "label": "A destra"
+          },
+          "label": "Allineamento contenuto"
         }
       },
       "blocks": {
@@ -1969,17 +2029,57 @@
             }
           }
         },
-        "button": {
-          "name": "Pulsante",
+        "buttons": {
+          "name": "Pulsanti",
           "settings": {
-            "button_label": {
-              "label": "Etichetta pulsante"
+            "button_label_1": {
+              "label": "Prima etichetta pulsante",
+              "info": "Lascia vuota l'etichetta per nascondere il pulsante."
             },
-            "button_link": {
-              "label": "Link pulsante"
+            "button_link_1": {
+              "label": "Primo link pulsante"
             },
-            "button_style_secondary": {
+            "button_style_secondary_1": {
               "label": "Utilizza stile contorno pulsante"
+            },
+            "button_label_2": {
+              "label": "Seconda etichetta pulsante",
+              "info": "Lascia vuota l'etichetta per nascondere il pulsante."
+            },
+            "button_link_2": {
+              "label": "Secondo link pulsante"
+            },
+            "button_style_secondary_2": {
+              "label": "Utilizza stile contorno pulsante"
+            }
+          }
+        },
+        "caption": {
+          "name": "Didascalia",
+          "settings": {
+            "text": {
+              "label": "Testo"
+            },
+            "text_style": {
+              "label": "Stile testo",
+              "options__1": {
+                "label": "Sottotitolo"
+              },
+              "options__2": {
+                "label": "Maiuscolo"
+              }
+            },
+            "caption_size": {
+              "label": "Dimensione del testo",
+              "options__1": {
+                "label": "Piccola"
+              },
+              "options__2": {
+                "label": "Media"
+              },
+              "options__3": {
+                "label": "Grande"
+              }
             }
           }
         }
@@ -2648,6 +2748,27 @@
       "presets": {
         "name": "Contenuto comprimibile"
       }
+    },
+    "main-account": {
+      "name": "Account"
+    },
+    "main-activate-account": {
+      "name": "Attivazione account"
+    },
+    "main-addresses": {
+      "name": "Indirizzi"
+    },
+    "main-login": {
+      "name": "Accedi"
+    },
+    "main-order": {
+      "name": "Ordine"
+    },
+    "main-register": {
+      "name": "Registrazione"
+    },
+    "main-reset-password": {
+      "name": "Reimpostazione della password"
     }
   }
 }

@@ -268,7 +268,7 @@
           "options__4": {
             "label": "Oben rechts"
           },
-          "label": "Position der Produktkarte"
+          "label": "Position auf Karten"
         },
         "sale_badge_color_scheme": {
           "label": "Farbschema für Sale-Badges"
@@ -282,7 +282,8 @@
       "name": "Schaltflächen"
     },
     "variant_pills": {
-      "name": "Varianten-Kapseln"
+      "name": "Varianten-Kapseln",
+      "paragraph": "Varianten-Kapseln sind eine Möglichkeit, deine Produktvarianten zu präsentieren. [Mehr Informationen](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Eingaben"
@@ -299,6 +300,36 @@
     },
     "drawers": {
       "name": "Einschübe"
+    },
+    "cart": {
+      "name": "Warenkorb",
+      "settings": {
+        "cart_type": {
+          "label": "Warenkorbstil",
+          "drawer": {
+            "label": "Einschub"
+          },
+          "page": {
+            "label": "Seite"
+          },
+          "notification": {
+            "label": "Pop-up-Benachrichtigung"
+          }
+        },
+        "show_vendor": {
+          "label": "Anbieter anzeigen"
+        },
+        "show_cart_note": {
+          "label": "Warenkorbanmerkung aktivieren"
+        },
+        "cart_drawer": {
+          "header": "Warenkorbeinschub",
+          "collection": {
+            "label": "Kategorie",
+            "info": "Sichtbar, wenn der Warenkorbeinschub leer ist."
+          }
+        }
+      }
     }
   },
   "sections": {
@@ -338,6 +369,9 @@
         },
         "options__3": {
           "label": "Groß"
+        },
+        "options__4": {
+          "label": "Extra groß"
         }
       }
     },
@@ -352,6 +386,18 @@
             },
             "link": {
               "label": "Link"
+            },
+            "text_alignment": {
+              "label": "Textausrichtung",
+              "options__1": {
+                "label": "Links"
+              },
+              "options__2": {
+                "label": "Zentriert"
+              },
+              "options__3": {
+                "label": "Rechts"
+              }
             }
           }
         }
@@ -659,8 +705,7 @@
           "name": "Menü",
           "settings": {
             "heading": {
-              "label": "Überschrift",
-              "info": "Überschrift ist erforderlich, um das Menü anzuzeigen."
+              "label": "Überschrift"
             },
             "menu": {
               "label": "Menü",
@@ -1194,11 +1239,6 @@
     },
     "main-cart-footer": {
       "name": "Zwischensumme",
-      "settings": {
-        "show_cart_note": {
-          "label": "Warenkorbanmerkung aktivieren"
-        }
-      },
       "blocks": {
         "subtotal": {
           "name": "Zwischensumme"
@@ -1209,12 +1249,7 @@
       }
     },
     "main-cart-items": {
-      "name": "Artikel",
-      "settings": {
-        "show_vendor": {
-          "label": "Anbieter anzeigen"
-        }
-      }
+      "name": "Artikel"
     },
     "main-collection-banner": {
       "name": "Kategoriebanner",
@@ -1950,6 +1985,31 @@
       "settings": {
         "full_width": {
           "label": "Abschnitt über die gesamte Breite"
+        },
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Zentriert"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Desktop-Inhaltsposition",
+          "info": "Positionen werden automatisch für die mobile Nutzung optimiert."
+        },
+        "content_alignment": {
+          "options__1": {
+            "label": "Links"
+          },
+          "options__2": {
+            "label": "Zentriert"
+          },
+          "options__3": {
+            "label": "Rechts"
+          },
+          "label": "Inhaltsausrichtung"
         }
       },
       "blocks": {
@@ -1969,17 +2029,57 @@
             }
           }
         },
-        "button": {
-          "name": "Schaltfläche",
+        "buttons": {
+          "name": "Schaltflächen",
           "settings": {
-            "button_label": {
-              "label": "Schaltflächenbeschriftung"
+            "button_label_1": {
+              "label": "Erste Schaltflächenbeschriftung",
+              "info": "Lasse die Beschriftung leer, um die Schaltfläche auszublenden."
             },
-            "button_link": {
-              "label": "Schaltflächenlink"
+            "button_link_1": {
+              "label": "Erster Schaltflächenlink"
             },
-            "button_style_secondary": {
+            "button_style_secondary_1": {
               "label": "Umriss-Stil für Schaltfläche verwenden"
+            },
+            "button_label_2": {
+              "label": "Zweite Schaltflächenbeschriftung",
+              "info": "Lasse die Beschriftung leer, um die Schaltfläche auszublenden."
+            },
+            "button_link_2": {
+              "label": "Zweiter Schaltflächenlink"
+            },
+            "button_style_secondary_2": {
+              "label": "Umriss-Stil für Schaltfläche verwenden"
+            }
+          }
+        },
+        "caption": {
+          "name": "Bildtext",
+          "settings": {
+            "text": {
+              "label": "Text"
+            },
+            "text_style": {
+              "label": "Textstil",
+              "options__1": {
+                "label": "Untertitel"
+              },
+              "options__2": {
+                "label": "Großbuchstaben"
+              }
+            },
+            "caption_size": {
+              "label": "Textgröße",
+              "options__1": {
+                "label": "Klein"
+              },
+              "options__2": {
+                "label": "Mittel"
+              },
+              "options__3": {
+                "label": "Groß"
+              }
             }
           }
         }
@@ -2648,6 +2748,27 @@
       "presets": {
         "name": "Einklappbarer Inhalt"
       }
+    },
+    "main-account": {
+      "name": "Konto"
+    },
+    "main-activate-account": {
+      "name": "Kontoaktivierung"
+    },
+    "main-addresses": {
+      "name": "Adressen"
+    },
+    "main-login": {
+      "name": "Login"
+    },
+    "main-order": {
+      "name": "Bestellung"
+    },
+    "main-register": {
+      "name": "Registrierung"
+    },
+    "main-reset-password": {
+      "name": "Passwort zurücksetzen"
     }
   }
 }

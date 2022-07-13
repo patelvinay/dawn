@@ -248,7 +248,8 @@
         "product": "Produkt",
         "price": "Pris",
         "total": "Totalt",
-        "quantity": "Kvantitet"
+        "quantity": "Kvantitet",
+        "image": "Produktbild"
       },
       "update": "Uppdatera",
       "login": {
@@ -377,7 +378,7 @@
     },
     "reset_password": {
       "title": "Återställ kontolösenord",
-      "subtext": "Ange ett nytt lösenord för {{ email }}",
+      "subtext": "Ange ett nytt lösenord",
       "password": "Lösenord",
       "password_confirm": "Bekräfta lösenordet",
       "submit": "Återställ lösenord"

@@ -256,7 +256,8 @@
         "product": "Produs",
         "price": "Preț",
         "total": "Total",
-        "quantity": "Cantitate"
+        "quantity": "Cantitate",
+        "image": "Imagine produs"
       },
       "login": {
         "title": "Ai un cont?",
@@ -384,7 +385,7 @@
     },
     "reset_password": {
       "title": "Resetați parola contului",
-      "subtext": "Introduceți o nouă parolă pentru {{ email }}",
+      "subtext": "Introdu o parolă nouă",
       "password": "Parolă",
       "password_confirm": "Confirmați parola",
       "submit": "Resetați parola"

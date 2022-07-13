@@ -248,7 +248,8 @@
         "product": "Product",
         "price": "Price",
         "total": "Total",
-        "quantity": "Quantity"
+        "quantity": "Quantity",
+        "image": "Product image"
       },
       "update": "Update",
       "login": {
@@ -402,7 +403,7 @@
     },
     "reset_password": {
       "title": "Reset account password",
-      "subtext": "Enter a new password for {{ email }}",
+      "subtext": "Enter a new password",
       "password": "Password",
       "password_confirm": "Confirm password",
       "submit": "Reset password"

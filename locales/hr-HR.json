@@ -256,7 +256,8 @@
         "product": "Proizvod",
         "price": "Cijena",
         "total": "Ukupno",
-        "quantity": "Količina"
+        "quantity": "Količina",
+        "image": "Slika proizvoda"
       },
       "login": {
         "title": "Imate li račun?",
@@ -384,7 +385,7 @@
     },
     "reset_password": {
       "title": "Ponovno postavljanje lozinke računa",
-      "subtext": "Unesite novu lozinku za {{ email }}",
+      "subtext": "Unesite novu lozinku",
       "password": "Lozinka",
       "password_confirm": "Potvrdi lozinku",
       "submit": "Ponovno postavi lozinku"

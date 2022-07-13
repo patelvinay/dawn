@@ -76,7 +76,7 @@
           "options__4": {
             "label": "Top right"
           },
-          "label": "Product card position"
+          "label": "Position on cards"
         },
         "sale_badge_color_scheme": {
           "label": "Sale badge color scheme"
@@ -163,7 +163,8 @@
       "name": "Buttons"
     },
     "variant_pills": {
-      "name": "Variant pills"
+      "name": "Variant pills",
+      "paragraph": "Variant pills are one way of displaying your product variants. [Learn more](https://help.shopify.com/en/manual/online-store/themes/theme-structure/page-types#variant-picker-block)"
     },
     "inputs": {
       "name": "Inputs"
@@ -277,6 +278,36 @@
         }
       }
     },
+    "cart": {
+      "name": "Cart",
+      "settings": {
+        "cart_type": {
+          "label": "Cart type",
+          "drawer": {
+            "label": "Drawer"
+          },
+          "page": {
+            "label": "Page"
+          },
+          "notification": {
+            "label": "Popup notification"
+          }
+        },
+        "show_vendor": {
+          "label": "Show vendor"
+        },
+        "show_cart_note": {
+          "label": "Enable cart note"
+        },
+        "cart_drawer": {
+          "header": "Cart drawer",
+          "collection": {
+            "label": "Collection",
+            "info": "Visible when cart drawer is empty."
+          }
+        }
+      }
+    },
     "layout": {
       "name": "Layout",
       "settings": {
@@ -338,6 +369,9 @@
         },
         "options__3": {
           "label": "Large"
+        },
+        "options__4": {
+          "label": "Extra large"
         }
       }
     },
@@ -349,6 +383,18 @@
           "settings": {
             "text": {
               "label": "Text"
+            },
+            "text_alignment": {
+              "label": "Text alignment",
+              "options__1": {
+                "label": "Left"
+              },
+              "options__2": {
+                "label": "Center"
+              },
+              "options__3": {
+                "label": "Right"
+              }
             },
             "link": {
               "label": "Link"
@@ -781,8 +827,7 @@
           "name": "Menu",
           "settings": {
             "heading": {
-              "label": "Heading",
-              "info": "Heading required to display the menu."
+              "label": "Heading"
             },
             "menu": {
               "label": "Menu",
@@ -1214,6 +1259,15 @@
         "name": "Image with text"
       }
     },
+    "main-account": {
+      "name": "Account"
+    },
+    "main-activate-account": {
+      "name": "Account activation"
+    },
+    "main-addresses": {
+      "name": "Addresses"
+    },
     "main-article": {
       "name": "Blog post",
       "blocks": {
@@ -1316,11 +1370,6 @@
     },
     "main-cart-footer": {
       "name": "Subtotal",
-      "settings": {
-        "show_cart_note": {
-          "label": "Enable cart note"
-        }
-      },
       "blocks": {
         "subtotal": {
           "name": "Subtotal price"
@@ -1331,12 +1380,7 @@
       }
     },
     "main-cart-items": {
-      "name": "Items",
-      "settings": {
-        "show_vendor": {
-          "label": "Show vendor"
-        }
-      }
+      "name": "Items"
     },
     "main-collection-banner": {
       "name": "Collection banner",
@@ -1488,6 +1532,12 @@
           }
         }
       }
+    },
+    "main-login": {
+      "name": "Login"
+    },
+    "main-order": {
+      "name": "Order"
     },
     "main-page": {
       "name": "Page"
@@ -1810,6 +1860,12 @@
           "label": "Enable video looping"
         }
       }
+    },
+    "main-register": {
+      "name": "Registration"
+    },
+    "main-reset-password": {
+      "name": "Password reset"
     },
     "main-search": {
       "name": "Search results",
@@ -2203,6 +2259,31 @@
     "rich-text": {
       "name": "Rich text",
       "settings": {
+        "desktop_content_position": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Desktop content position",
+          "info": "Position is automatically optimized for mobile."
+        },
+        "content_alignment": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Content alignment"
+        },
         "full_width": {
           "label": "Make section full width"
         }
@@ -2216,6 +2297,35 @@
             }
           }
         },
+        "caption": {
+          "name": "Caption",
+          "settings": {
+            "text": {
+              "label": "Text"
+            },
+            "text_style": {
+              "label": "Text style",
+              "options__1": {
+                "label": "Subtitle"
+              },
+              "options__2": {
+                "label": "Uppercase"
+              }
+            },
+            "caption_size": {
+              "label": "Text size",
+              "options__1": {
+                "label": "Small"
+              },
+              "options__2": {
+                "label": "Medium"
+              },
+              "options__3": {
+                "label": "Large"
+              }
+            }
+          }
+        },
         "text": {
           "name": "Text",
           "settings": {
@@ -2224,16 +2334,27 @@
             }
           }
         },
-        "button": {
-          "name": "Button",
+        "buttons": {
+          "name": "Buttons",
           "settings": {
-            "button_label": {
-              "label": "Button label"
+            "button_label_1": {
+              "label": "First button label",
+              "info": "Leave the label blank to hide the button."
             },
-            "button_link": {
-              "label": "Button link"
+            "button_link_1": {
+              "label": "First button link"
             },
-            "button_style_secondary": {
+            "button_style_secondary_1": {
+              "label": "Use outline button style"
+            },
+            "button_label_2": {
+              "label": "Second button label",
+              "info": "Leave the label blank to hide the button."
+            },
+            "button_link_2": {
+              "label": "Second button link"
+            },
+            "button_style_secondary_2": {
               "label": "Use outline button style"
             }
           }
